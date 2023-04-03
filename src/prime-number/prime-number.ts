@@ -1,14 +1,13 @@
 export function ePrimo(number: number): boolean {
-    if (number <= 1) {
+  if (number <= 1) {
+    return false;
+  }
+
+  for (let i = 2; i <= Math.sqrt(number); i++) {
+    if (number % i === 0) {
       return false;
     }
-  
-    for (let i = 2; i <= Math.sqrt(number); i++) {
-      if (number % i === 0) {
-        return false;
-      }
-    }
-  
-    return true;
   }
-  
+
+  return true;
+}
