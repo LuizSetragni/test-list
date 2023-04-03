@@ -1,7 +1,28 @@
-
-
-
 <h1>Testes com Jest e TypeScript</h1>
+<h2>Pré-requisitos</h2>
+
+<p>Para executar este projeto, você precisa ter o <a href="https://nodejs.org/">Node.js</a> instalado em seu sistema.</p>
+
+<h2>Instalação</h2>
+
+<p>Clone este repositório e execute o seguinte comando para instalar as dependências:</p>
+
+<pre><code>npm install</code></pre>
+
+<h2>Executando o Projeto</h2>
+
+<p>Para executar o projeto, utilize o comando:</p>
+
+<pre><code>npm run start</code></pre>
+
+<h2>Executando os Testes</h2>
+
+<p>Para executar os testes, utilize o comando:</p>
+
+<pre><code>npm run test</code></pre>
+<pre><code>npm run test -- --coverage</code></pre>
+
+
 <p>Os testes apresentados utilizam uma ferramenta de teste unitário "Jest" na linguagem "TypeScript" para verificar se as funções implementadas no código são capazes de retornar resultados esperados para diferentes entradas.</p>
 <h2>Testes</h2>
 <h3>Teste de temperatura (temperatureConvert)</h3>
